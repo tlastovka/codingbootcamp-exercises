@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    margin: 0;
+
+}
+
+/* ....Navigation...*/
+
+nav a {
+    color: azure;
+    background-color: gray;
+    font-weight: bold;
+    display: flex;
+    text-decoration: none;
+    padding:    10 px;
+    margin: 5px;
+}
+
+ul {
+    display: flex;
+    padding: 10px;
+    background-color: gray;
+}
+
+
+section.welcome {
+    background-color: rgb(175, 171, 171);
+    margin: 0;
+    text-align: center;
+    padding: 2em;
+}
+
+
+section.welcome h1 {
+    font-size: 4em;
+    font-weight: normal;
+}
+
+section.welcome .subtitle {
+    color: lightgray;
+    font-size: 2em;
+}
+
+
+/* ....Plot...*/
+
+.plot {
+     background-color: rgb(175, 171, 171);
+
+}
+
+section.plot h1 {
+    display: flex;
+    font-size: 3rem;
+    padding:  10px;
+    justify-content: center;
+}
+
+/* problem with centering of the plot-contents section (beware it is restricted by the witdth of 800px */
+.plot-contents {
+    width: 800px;
+    display: flex;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+
+.plot-text h2 {
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.plot-text p {
+    flex-wrap: wrap;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+
+
+/* ....Characters...*/
+
+.characters {
+    background-color: rgb(175, 171, 171);
+}
+
+section.characters h1 {
+    font-size: 3rem;
+    padding:    10px;
+    text-align: center;
+}
+
+#luke {
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
